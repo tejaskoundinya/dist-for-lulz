@@ -1,0 +1,14 @@
+# Default values for ..
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+postgresql:
+  postgresql:
+    auth:
+      postgresPassword: "admin"
+      username: "user"
+      password: "password"
+      database: "testdb"
+
+redis:
+  password: "redis"
